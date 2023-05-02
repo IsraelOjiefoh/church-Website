@@ -1,0 +1,460 @@
+   
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInDown {
+  animation-name: fadeInDown;
+  animation-duration: 5s;
+}
+
+.Freedom {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  color: #ffffff9e;
+  font-size: 700%;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+  animation-name: freedom;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes freedom {
+  0% {
+    right: -100%;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+
+.toRegin{
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  color: #fff;
+  font-size: 550%;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+  animation-name: freedom;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+ 
+
+ 
+  .instagram {
+    font-size: 18px;
+    font-weight: bold;
+    left: 0;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 75%;
+    left: 2%;
+  
+  }
+ 
+  .facebook {
+    font-size: 18px;
+    font-weight: bold;
+    left: 0;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+  }
+
+
+ 
+  .download-button {
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 50px;
+    border-color: white;
+    border-width: 1px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    animation: slideInDown  3s forwards;
+    animation-delay: 2s;
+  }
+  .download-button:hover {
+    transform: scale(1.1);
+  }
+ 
+  @keyframes slideInLeft {
+    from {
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .download-button {
+    animation-name: slideInLeft;
+  }
+.image-container img {
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+}
+ 
+ 
+  .Muiwa-temitope {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    animation-name: Muiwa;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+
+
+@keyframes Muiwa {
+  0% {
+    right: -100%;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+
+
+.Muiwa-temitope2{
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  color: white;
+  font-size: 16px;
+  width: 600px;
+}
+
+.learn-more{
+  position: absolute;
+  top: 80%;
+    left: 85%;
+  color: white;
+  font-size: 16px;
+  width: 600px;
+  font-weight: bold;
+}
+.arrow{
+  width: 200px;
+}
+
+.mami-partneership {
+  background-color: black;
+  color: white;
+  padding: 120px;
+  text-align: center;
+  font-size: 45px;
+}
+
+/*This is the first pictue on the webpage */
+.home-pic {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+/* this is the broadcast section onteh webpage */
+.broadcast {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*check for "Watch Pastor muiwa areo live on the webpage */
+.watch-pastor {
+  font-size: x-large;
+  font-weight: bolder;
+  margin-left: 50px;
+}
+
+/* the speech below watch pastor */
+.speech {
+  text-align: justify;
+  color: rgb(59, 56, 56);
+  width: 600px;
+}
+
+ 
+
+ 
+.learnMore-button {
+  background-color: transparent;
+  color: grey;
+  height: 30px;
+  margin-top: 15px;
+  width: 120px;
+  border-radius: 30px;
+  border-color: black;
+  border-width: 1px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  font-size: 15px;
+}
+.learnMore-button:hover {
+  transform: scale(1.1);
+}
+.dear-starter {
+  margin-top: 150px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* this is the combination of the three pics below "Dear Starter */
+.pic-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*This is the first div in the pic-section */
+
+/* This is the first pic in the pic-section */
+.pic-1 {
+  width: 350px;
+  height: 167px;
+}
+
+/*This is the second div in the pic-section */
+.div-2 {
+  margin-left: 50px;
+  width: 350px;
+  height: 200px;
+}
+@media screen and (max-width: 700px) {
+  .div-2 {
+    margin-top: 30px;
+  }
+}
+/*-This is the third div in the pic-section */
+.div-3 {
+  width: 350px;
+  height: 200px;
+}
+
+ 
+
+/*This is the first writeUp in the div section */
+.writeUp-1 {
+  width: 350px;
+  color: grey;
+  font-size: large;
+  font-weight: bold;
+}
+/*This is the second writeUp in the div section */
+.writeUp-2,
+.writeUp-3 {
+  width: 310px;
+  color: grey;
+  font-size: large;
+  font-weight: bold;
+}
+.date-1,
+.date-2,
+.date-3 {
+  color: grey;
+  font-size: small;
+}
+.readMore-1,
+.readMore-2,
+.readMore-3 {
+  color: red;
+  opacity: 0.7;
+  font-size: small;
+  text-decoration: none;
+}
+
+ 
+ 
+
+ 
+  .readMore-button {
+    margin-top: 100px;
+    margin-left: 500px;
+    background-color: transparent;
+    color: grey;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    border-color: black;
+    border-width: 1px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    font-size: 15px;
+  }
+
+  .readMore-button:hover {
+    transform: scale(1.1);
+  }
+
+
+/*this is every thing about freedom ministry */
+.freedom-ministry-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.favebook-svg {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.freedom-ministry-pic {
+  width: 50%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+
+.freedom-ministry-header {
+  font-weight: bold;
+  font-size: 40px;
+  width: 100%;
+  animation-name: go;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  transform: translateY(-50);
+}
+
+@keyframes go {
+  0% {
+    right: -100px;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+.freedom-ministry-text {
+  width: 450px;
+  margin-top: 15px;
+  line-height: 25px;
+  color: grey;
+  margin-left: 2px;
+}
+
+li {
+  color: red;
+  opacity: 0.7;
+}
+
+.weekend {
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.small-screen-text {
+  background-color: #355c7d;
+  color: white;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.buyNow-button {
+  background-color: transparent;
+  color: black;
+  height: 30px;
+  width: 150px;
+  border-radius: 20px;
+  border-color: black;
+  border-width: 1px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  font-size: larger;
+}
+
+.BuyNow-button:hover {
+  transform: scale(1.1);
+}
+
+ 
+  .resources-div {
+    margin-left: 40px;
+  }
+
+
+ 
+  .resources-text {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 200px;
+    font-weight: lighter;
+  }
+ 
+.resource-book {
+  width: 200px;
+}
+.confession-book {
+  width: 200px;
+}
+
+.text-danger {
+  font-style: italic;
+  margin: 10px;
+  font-size: 1rem;
+}
+
+.resource-ad {
+  width: 319px;
+  text-align: justify;
+  color: grey;
+  margin-bottom: 20px;
+}
+.confession {
+  font-size: 10px;
+  margin-top: 30px;
+}
+
+.footer-margin {
+  margin-bottom: 100px;
+}
+.Privacy-Policy {
+  color: purple;
+}
+
+
+  
+ 

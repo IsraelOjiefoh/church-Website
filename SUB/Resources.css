@@ -1,0 +1,64 @@
+
+.resources {
+  background-color: #000;
+  padding: 5%;
+  color: #fff;
+  font-size: 300%;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .flex-box {
+    display: block;
+    text-align: center;      
+  }
+}
+
+.first-book {
+  margin: auto 10%;
+}
+
+.the-becomings {
+  color: red;
+  margin-left: 10%;
+  opacity: 0.8;
+}
+.description {
+  color: grey;
+  width: 70%;
+  margin-left: -10%;
+  text-align: center;
+}
+@media screen and (max-width:700px) {
+ .description {
+  margin-left: 5%;
+ } 
+}
+.book1-btn {
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 2%;
+}
+
+@media screen and (max-width: 700px) {
+  .second-book {
+    margin: auto 8%;
+  }
+}
+
+.partner-with-us {
+  background-color: #fe7250;
+  color: #fff;
+  padding: 1% 4%;
+  margin: 5% 35%;
+  border-radius: 40px;
+  border: none;
+  font-size: 150%;
+}

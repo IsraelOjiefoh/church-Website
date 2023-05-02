@@ -1,0 +1,47 @@
+.flex-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   flex-wrap: wrap;
+  }
+
+
+.first-book{
+    margin-left:5%;
+}
+
+.second-book{
+    margin-left: -10%;
+}
+
+@media screen and (max-width:700px) {
+    .first-book{
+        margin-bottom:10% ;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .third-book{
+        margin-left: -6%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (min-width:820px) {
+    .fourth-book{
+        margin-top: 5%;
+    }
+}
+
+@media screen and (min-height:1024px) {
+    .fourth-book{
+        margin-top: 5%;
+    }
+}
+
+ 
+ @media screen and (min-width:600) {
+  .second-book{  margin-right: -30px;
+  }
+ }

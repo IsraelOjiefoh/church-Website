@@ -1,0 +1,141 @@
+.mami-partnership {
+  background-color: black;
+  padding: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.giving-pic {
+  width: 300px;
+}
+
+.partnership-seed {
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 10 0px;
+}
+
+.partnership-ad {
+  width: 100%;
+  color: grey;
+  text-align: justify;
+}
+
+.giveButton {
+  margin-left: 20px;
+  background-color: #fe7250;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  margin-bottom: 20px;
+}
+ 
+
+.form-frame {
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
+  width: 650px;
+  height: 780px;
+  margin-bottom: 100px;
+  color: grey;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .form-frame {
+    margin-left: 10%;
+  }
+}
+
+ 
+
+
+.form-info {
+  background-color: grey;
+  color: white;
+  font-size: larger;
+  border: 2px solid;
+  border-left-color: red;
+  padding: 15px 25px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+@media screen and (max-width: 700px) {
+  .form-info {
+    width: 400px;
+   margin-left: -150px;
+  }
+}
+.star {
+  color: red;
+}
+
+label {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  label {
+   
+    margin-left: -100px;
+  }
+}
+.male-radio {
+  margin-left: 150px;
+}
+
+@media screen and (max-width:700px) {
+  .male-radio{
+    margin-left: -100px;
+  }
+}
+.name-box {
+  width: 600px;
+  padding: 10px;
+  margin-top: 20px;
+}
+@media screen and (max-width:700px) {
+  .name-box{
+    width: 300px;
+    margin-left: -100px;
+   }
+}
+.email {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .email {
+    width: 400px;
+    margin-left: 150px;
+  }
+}
+
+.RegisterButton {
+  margin-top: 10%;
+  margin-left: 20px;
+  background-color: #fe7250;
+  color: white;
+  border: none;
+  padding: 10px 60px;
+}
+
+@media screen and (max-width: 700px) {
+  .RegisterButton {
+    width: 400px;
+    margin-left: -120px;
+  }
+}
+
+.text-danger-div {
+  margin-top: 10px;
+}
+@media screen and (max-width: 700px) {
+  .text-danger-div {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: -150px;
+  }
+}
