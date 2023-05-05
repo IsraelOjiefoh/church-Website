@@ -1,4 +1,6 @@
-
+body{
+  font-family: 'Inter', sans-serif;
+}
 .resources {
   background-color: #000;
   padding: 5%;
