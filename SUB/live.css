@@ -59,24 +59,7 @@ background-color: rgba(0, 0, 0, 0,5);
   }
 }
 
-iframe{
-width: 650px;
-height: 365px;
-margin : 100px 400px;
-}
-@media screen and (max-width:600px) {
-  iframe{
-    width: 325px;
-    margin: 50px;
-  }
-}
-
-@media screen and (max-width:900px) {
-  iframe{
-    width: 500px;
-    margin: 10px;
-  }
-}
+ 
 .text{
   width: 1050px;
    margin: 100px 150px;
@@ -84,7 +67,7 @@ margin : 100px 400px;
    line-height: 1.5;
 }
 @media  screen and (max-width:899px) {
-  .text{width: 400px;margin: 50px 70px;}
+  .text{width:  100%;margin-left: 10px}
   
   
 }

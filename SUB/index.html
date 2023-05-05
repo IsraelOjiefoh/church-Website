@@ -25,9 +25,7 @@
 <!--End of Taillwind-->
 
   <title>Muiwa Areo -Home</title>
-   
-   <link rel="stylesheet" href="header.css">
-   
+     
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
 
@@ -37,12 +35,15 @@
 </head>
 <body>
   
-  <header class="header">
+  <header class="w-screen h-[150px] flex flex-row justify-between bg-black opacity-[0.6] fixed top-0 bottom-0 right-0 left-0  ">
     <!--This is the logo of the church -->
-     <img  src="pictures-folder/cropped-MAMI-LOGO-white-copy2 (1).png" alt="church-logo" onclick="window.location.href='index.html'" class="church-logo">
+     <img  src="pictures-folder/cropped-MAMI-LOGO-white-copy2 (1).png" alt="church-logo" onclick="window.location.href='index.html'" class="ml-[20px] mt-[50px] top-28 left-28 h-[70px] rounded-full cursor-pointer ">
   
     <!--The partner button in the header-->
-    <input onclick="window.location.href='SUB/partner-button.html'" type="button" class="partner-button" value="Partner">
+    <div class="max-[639px]:hidden">
+
+      <input onclick="window.location.href='SUB/partner-button.html'" type="button" class="bg-transparent  text-white md:h-[30px] mt-[50px] w-[150px] rounded-full border-white border-[1px] pt-[15px] md:pb-[30px] cursor-pointer md:text-3xl " value="Partner" >
+    </div>
  
     <nav class="navbar navbar-dark ">
   <div class="container-fluid ">
@@ -117,24 +118,20 @@
      <main>
   
     <div class="bg-black">
-      <img id="fadeInDown" class="w-screen sm:relative " src="pictures-folder/istockphoto-1465352994-612x612.jpg" alt="Home-pic">
+      <img id="fadeInDown" class="w-screen md:relative " src="pictures-folder/istockphoto-1465352994-612x612.jpg" alt="Home-pic">
 <div   class=" text-freedom  text-4xl text-center mt-4 md:absolute top-28  right-4  md:text-7xl lg:text-9xl lg:top-[20rem] ">
   FREEDOM
 </div>
-<div class="text-white text-center text-2xl font-bold md:absolute  bottom-[24rem] right-4 md:text-5xl lg:top-[29rem]">TO REGIN</div>
+<div class="text-white text-center text-2xl font-bold md:absolute  bottom-[23rem] right-4 md:text-5xl lg:top-[29rem]">TO REGIN</div>
 <div class="text-white text-center mt-2 text-2xl md:absolute top-[15rem] right-4   md:text-3xl lg:top-[32rem]">
   MUYIWA & TEMITOPE AREO
 </div>
-<div class="text-white text-center mt-2 mb-0   md:absolute top-[17rem] right-4 md:w-[25rem] lg:top-[35rem] lg:w-[40rem] ">
+<div class="text-white text-center mt-2     md:absolute top-[17rem] right-4 md:w-[25rem] lg:top-[35rem] lg:w-[40rem] ">
 
   Pastors Muyiwa and Temitope Areo are the pioneers of Muyiwa Areo Ministry
   International (MAMI). They are called and anointed to preach and teach the message of FREEDOM with all simplicity, clarity and intact depth.
 </div>
-
-<button  class="  p-2 w-44 ml-40  my-4  text-white font-bold   border-1 rounded-full      md:absolute  right-[20rem]  md:top-96  lg:w-[15rem] lg:top-[40rem] "> Download Message</button>
-
-
-<p class="text-white  ml-40  font-bold mb-8  md:absolute top-[27rem] right-[10rem] lg:right-4 lg:top-[42rem]   ">Learn More &#8594;</p>
+ 
  
 </div>  
  
@@ -227,9 +224,9 @@
 </div>
 
 </section>
-  <div class="ml-60 lg:ml-72">
+  <div class="md:ml-60 ">
 
-    <button  class=" p-2 w-44  m-4   text-black     border-1 border-black rounded-full "> More Post</button>
+    <button  class=" p-2 w-44  m-4   text-black ml-16  my-4    border-1 border-black rounded-full "> More Post</button>
      
   </div>
 
@@ -239,31 +236,33 @@
   
 </div>
  
-<div class="freedom-ministry-div">
+<div class="md:flex justify-between">
  
       <!--This is the  first div in the pic-section-->
       <div class="div-1">
        
         <!--This is the first pic in the pic-section-->
-        <img class="freedom-ministry-pic" src="pictures-folder/FMA-Design-for-Web-768x768.jpg">
+        <img class="w-screen" src="pictures-folder/FMA-Design-for-Web-768x768.jpg">
  
      
 </div>
 
   <!--This is the second div in the pic-section-->
-<div class="div-2">
+<div class="div-2 mx-4">
  
   <!-- This is the second pic in the pic-section -->
-  <div class="freedom-ministry-header">Freedom Ministry Academy</div>
+  <div class="font-bold text-2xl   md:text-4xl  lg:text-5xl">Freedom Ministry Academy</div>
   
         <!--This is the second writeUp in the div section-->
-  <div class="freedom-ministry-text" >FMA is God ordained for this purpose. It is a once in a year ACADEMY that runs for 7 weekends with proper graduation and certification. It is an intense boot camp where doctrines are set forth and wisdom is poured out.
-<div>
+  <div class="text-gray-500 mt-4  "  >FMA is God ordained for this purpose. It is a once in a year ACADEMY that runs for 7 weekends with proper graduation and certification. It is an intense boot camp where doctrines are set forth and wisdom is poured out.
+<div class="my-4">
   <ul>
-    <li><div class='weekend'>7 weekends</div></li>
-     <li><div class='weekend'> Onsite in different location</div></li> 
+    <li>
+      7 weekends</li>
+<li>
+  Onsite in different locations</li>
   </ul> 
-<button onclick="window.location.href='FMA.html'" class="learnMore-button" >Learn More</button>  
+<button onclick="window.location.href='SUB/FMA.html'" class=" p-2 w-44  m-4   text-black ml-16     border-1 border-black rounded-full" >Learn More</button>  
 </div>
     </div>  
 </div>
@@ -277,27 +276,27 @@
 <div class="container-lg">
 <div class="row justify-content-center align-items-center ">
   <div class="col">
-    <div  class="resources-text">Resources</div>
-    <img class="resource-book" src="pictures-folder/MAMI-RESOURCES-300x300.png" alt="book-cover">
-    <div class="text-danger">Get this collection free</div>
-    <div class="resource-ad">
+    <div  class=" font-light my-4 text-4xl text-center ">Resources</div>
+    <img class=" w-64 ml-16 md:ml-44 lg:ml-[22rem]" src="pictures-folder/MAMI-RESOURCES-300x300.png" alt="book-cover">
+    <div class="text-danger text-center">Get this collection free</div>
+    <div class="text-center">
       Receive your copy of The Becomings and Believers Pill by Pastor Muyiwa Areo now.
 </div>
     <div>
-    <button onclick="window.location.href='Resources.html'" class="buyNow-button">Get Yours Now</button>
+    <button onclick="window.location.href='SUB/Resources.html'" class="p-2 w-44  m-16     text-black   my-4    border-1 border-black rounded-full md:m-64 lg:m-[27rem]">Get Yours Now</button>
     </div>
   </div>
   
     <div class="col-sm  ">
-      <div class=" display-5  my-3 lead">Confession</div>
-      <img class="confession-book" src="pictures-folder/CONFESSION-DESIGN-400x400.png" alt="book-cover">
+      <div class=" font-light my-4 text-4xl text-center">Confession</div>
+      <img class="w-64 ml-16 md:ml-44 lg:ml-[22rem] " src="pictures-folder/CONFESSION-DESIGN-400x400.png" alt="book-cover">
 
-         <div class="text-danger">Get this collection free</div>
-    <div class="resource-ad">
+         <div class="text-danger  text-center">Get this collection free</div>
+    <div class="text-center">
      Start confessing God's Word today
 </div>
     <div>
-    <button onclick="window.location.href='confession.html'" class="buyNow-button">Get Yours Now</button>
+    <button onclick="window.location.href='SUB/confession.html'" class="p-2 w-44  m-16     text-black   my-4    border-1 border-black rounded-full md:m-64 lg:m-[27rem]">Get Yours Now</button>
     </div>
     </div> 
   </div>
@@ -376,7 +375,7 @@
         <!--Grid column-->
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
            
-
+<div class="flex justify-between">
         <a href="https://web.facebook.com/Muiwa-Areo-Ministry-International-MAMI-1728677177198617" class=" ">
           <img class="favebook-svg" src="pictures-folder/facebook.svg" alt="facebook logo">
         </a>
@@ -388,6 +387,7 @@
         <a href="instagram.com/muiwaareo"> 
           <img class="favebook-svg" src="pictures-folder/instagram.svg" alt="facebook logo">
         </a><p></p>
+        </div>
         <a href="Citizensoflightchurch.org" class="text-secondary text-decoration-none my-3">
           Visit Citizensoflightchurch.org ></a>
         </div><p></p>
