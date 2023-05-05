@@ -32,9 +32,8 @@ text-align: center;
 
 .parallax-container img {
 
-  width: 80%;
+  width: 100%;
   height: auto;
-  margin-left: 10%;
   background-position: center;
   background-size: cover;
 }
@@ -53,95 +52,4 @@ text-align: center;
   color: grey;
 }
 
-.form-info {
-  background-color: grey;
-  color: white;
-  font-size: larger;
-  border: 2px solid;
-  border-left-color: red;
-  padding: 15px 25px;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  width: 600px;
-}
-@media screen and (max-width:700px) {
-  .form-info{
-    width: 400px;
-    margin-left: 150px;
-  }
-}
-.star {
-  color: red;
-}
-
  
-label {
-  margin-top: 10px;
-}
-
-@media screen and (max-width:700px) {
-  label{
-    text-align: center;
-    margin-left: 150px;
-  }
-}
-.male-radio{
-     margin-left: 150px;
-}
-.name-box {
-  width: 600px;
-  padding: 10px;
-}
-
-@media screen and (max-width:700px) {
-  .name-box{
-    width: 400px;
-    margin-left: 150px;
-  }
-}
-
- 
-.email {
-  margin-top: 15px;
-}
-
-@media screen and (max-width:700px) {
-  .email{
-    width: 400px;
-    margin-left: 150px;
-  }
-}
-
-.RegisterButton {
-  margin-top: 50px;
-  margin-left: 20px;
-  background-color: #fe7250;
-  color: white;
-  border: none;
-  padding: 10px 60px;
-}
-
-
-@media screen and (max-width:700px) {
-  .RegisterButton{
-    width: 400px;
-    margin-left: 150px;
-  }
-}
-
-
-.text-danger-div{
-  margin-top: 100px;
-  margin-bottom: 500px;
-  margin-left: -150px;
-
-}
-@media screen and (max-width:700px){
-  .text-danger-div{
- 
-    margin-left: 150px;
-    margin-top: 50px;
-  }
-}
-
-   
